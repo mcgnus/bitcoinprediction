@@ -14,6 +14,8 @@ def readtrades(filename):
 
     return {"time": timelist, "price": pricelist, "volume": volumelist}
 
+# http://matplotlib.org/examples/pylab_examples/finance_work2.html
+
 
 def moving_average(x, n, wtype='simple'):
     """
